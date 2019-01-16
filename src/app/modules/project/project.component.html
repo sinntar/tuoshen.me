@@ -1,0 +1,17 @@
+<h2>Projects</h2>
+<section id="projects">
+    <div class="container" *ngFor="let project of data">
+        <article>
+            <div>
+                <figure class="image project-figure">
+                    <img src="{{project.link}}">
+                </figure>
+            </div>
+            <div>
+                <p class="project-name">
+                    {{project.description}}
+                </p>
+            </div>
+        </article>
+    </div>
+</section>

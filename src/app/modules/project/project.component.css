@@ -1,0 +1,29 @@
+.project-figure{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.project-figure:hover{
+    opacity: 1;
+}
+
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects > .container {
+    max-width: 350px;
+    width: 33%;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+.project-name{
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.6em;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    color: #6f6e6e;
+}
