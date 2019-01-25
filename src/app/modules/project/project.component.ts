@@ -9,4 +9,12 @@ import { projects } from 'src/app/data/projects';
 export class ProjectComponent {
   myProjects = new projects();
   data = this.myProjects.getdata();
+  showModal = false;
+  currentProject = {};
+
+  displayProject(project){
+    this.currentProject = project;
+    this.showModal = true;
+  }
 }
+
